@@ -7,4 +7,13 @@ export const autores: Autor[] = [
 	    idade: 18
     })
 ]
-export const post: Post[] = []
+export const posts: Post[] = [
+    new Post({
+        titulo: "Meu primeiro Post",
+        descricao: "Descrição meu primeiro post",
+        autor: new Autor({
+            nome: "Gustavo Brito",
+	        idade: 18
+        })
+    })
+]

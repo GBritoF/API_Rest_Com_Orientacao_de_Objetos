@@ -4,7 +4,7 @@ import Autor from "../modelos/Autor";
 
 export default class AutorControlador {
     listar(req: Request, res: Response) {
-        res.status(200).json(autores)
+        return res.status(200).json(autores)
     }
 
     detalhar(req: Request, res: Response) {
