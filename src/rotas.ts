@@ -1,5 +1,5 @@
 import { Router } from "express"
-import AutorControlador from "./controladores/autorControlador"
+import AutorControlador from "./controladores/AutorControlador"
 import PostControlador from "./controladores/PostControlador"
 
 const rotas = Router()
